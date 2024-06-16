@@ -63,7 +63,7 @@ To host your React NotesApp using GitHub Pages, follow these steps:
 2. **Add homepage to package.json**
     Add the following line to your `package.json` file:
     ```json
-    "homepage": "https://UserName.github.io/RepoName"
+    "homepage": "https://User-Name.github.io/Repository-Name"
     ```
 
 3. **Add deployment scripts to package.json**
@@ -83,7 +83,7 @@ To host your React NotesApp using GitHub Pages, follow these steps:
     ```
 
 5. **Access your application**
-    - Your NotesApp will be published at `https://UserName.github.io/RepoName`.
+    - Your NotesApp will be published at `https://User-Name.github.io/Repository-Name`.
 
 ## Hosting with Other Platforms
 
