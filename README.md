@@ -2,14 +2,14 @@
 
 ## Preview
 <div align="center">
-  <img src="folder-path/preview.png" alt="NotesApp Preview" width="600"/>
+  <img src="folder-path/preview.png" alt="Pokemon Game Preview" width="600"/>
 </div>
 
 ## About
 This is a React-based NotesApp that allows users to create, update, and delete notes. It includes features such as group creation, color selection, and persistent storage.
 
 ## Hosted Website
-Check out the live version of my NotesApp [here](https://JosuK22.github.io/Notes-App).
+Check out the live version here [Pokémon Memory Game](https://josuk22.github.io/Pokemon_Memory_Game/).
 
 ## Setup Instructions
 
@@ -24,7 +24,7 @@ To set up the project locally, follow these steps:
 
 1. **Clone the repository**
     ```bash
-    git clone https://github.com/JosuK22/Notes-App.git
+    git clone https://josuk22.github.io/Pokemon_Memory_Game/.git
     ```
 
 2. **Navigate to the project directory**
@@ -63,7 +63,7 @@ To host your React NotesApp using GitHub Pages, follow these steps:
 2. **Add homepage to package.json**
     Add the following line to your `package.json` file:
     ```json
-    "homepage": "https://JosuK22.github.io/Notes-App"
+    "homepage": "https://UserName.github.io/RepoName"
     ```
 
 3. **Add deployment scripts to package.json**
@@ -83,7 +83,7 @@ To host your React NotesApp using GitHub Pages, follow these steps:
     ```
 
 5. **Access your application**
-    - Your NotesApp will be published at `https://JosuK22.github.io/Notes-App`.
+    - Your NotesApp will be published at `https://UserName.github.io/RepoName`.
 
 ## Hosting with Other Platforms
 
