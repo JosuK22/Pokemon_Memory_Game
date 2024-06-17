@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Pokemon_Memory_Game/static/css/main.3e8bc2c5.css",
+    "main.css": "/Pokemon_Memory_Game/static/css/main.0bfd89de.css",
     "main.js": "/Pokemon_Memory_Game/static/js/main.2b996202.js",
     "static/media/balbasaur.png": "/Pokemon_Memory_Game/static/media/balbasaur.50eaee8e511d21ae428f.png",
     "static/media/eevee.png": "/Pokemon_Memory_Game/static/media/eevee.dd78db544e853b66e0fb.png",
@@ -10,11 +10,11 @@
     "static/media/charmander.png": "/Pokemon_Memory_Game/static/media/charmander.329a4b9fa3691d1e090a.png",
     "static/media/pikachu.png": "/Pokemon_Memory_Game/static/media/pikachu.50742e50c18b46c85580.png",
     "index.html": "/Pokemon_Memory_Game/index.html",
-    "main.3e8bc2c5.css.map": "/Pokemon_Memory_Game/static/css/main.3e8bc2c5.css.map",
+    "main.0bfd89de.css.map": "/Pokemon_Memory_Game/static/css/main.0bfd89de.css.map",
     "main.2b996202.js.map": "/Pokemon_Memory_Game/static/js/main.2b996202.js.map"
   },
   "entrypoints": [
-    "static/css/main.3e8bc2c5.css",
+    "static/css/main.0bfd89de.css",
     "static/js/main.2b996202.js"
   ]
 }
