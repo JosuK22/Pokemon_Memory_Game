@@ -119,9 +119,10 @@ p{
 
 @media (max-width: 600px) {
   .card-grid {
+    width: 90%;
     grid-template-columns: repeat(3, 1fr);
     gap: 60px 10px;
-    max-width: 300px;
+    /* max-width: 300px; */
   }
 
   .card {
