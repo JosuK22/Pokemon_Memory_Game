@@ -1,8 +1,8 @@
 import React from "react";
-import Background from '../assets/Images/pokeball.png';
+import Background from '../assets/Images/Pokemon/pokeball.png';
 import './pokeball.css';
 
-const SingleCards = ({ card, handleChoices, flipped, disabled, vibrating }) => {
+const PokeBall = ({ card, handleChoices, flipped, disabled, vibrating }) => {
   const handleClick = () => {
     if (!disabled) {
       handleChoices(card);
@@ -28,4 +28,4 @@ const SingleCards = ({ card, handleChoices, flipped, disabled, vibrating }) => {
   );
 };
 
-export default SingleCards;
+export default PokeBall;

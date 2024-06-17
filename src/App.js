@@ -1,11 +1,13 @@
 import React, { useEffect, useState } from "react";
-import SingleCards from "./components/SingleCards";
-import Pokemon_1 from './assets/Images/pikachu.png';
-import Pokemon_2 from './assets/Images/balbasaur.png';
-import Pokemon_3 from './assets/Images/charmander.png';
-import Pokemon_4 from './assets/Images/eevee.png';
-import Pokemon_5 from './assets/Images/gengar.png';
-import Pokemon_6 from './assets/Images/ss.png';
+
+import PokeBall from "./components/Pokeball";
+
+import Pokemon_1 from './assets/Images/Pokemon/pikachu.png';
+import Pokemon_2 from './assets/Images/Pokemon/balbasaur.png';
+import Pokemon_3 from './assets/Images/Pokemon/charmander.png';
+import Pokemon_4 from './assets/Images/Pokemon/eevee.png';
+import Pokemon_5 from './assets/Images/Pokemon/gengar.png';
+import Pokemon_6 from './assets/Images/Pokemon/ss.png';
 import './App.css';
 
 const cardImages = [
@@ -35,14 +37,14 @@ function App() {
   };
 
   const handleChoices = (card) => {
-    if (disabled) return; // Prevent selecting cards when disabled (during matching or timeout)
+    if (disabled) return; 
 
     if (card === choiceOne || card === choiceTwo) {
-      return; // Prevent selecting the same card twice in succession
+      return; 
     }
 
     if (choiceOne && choiceTwo) {
-      return; // Prevent selecting more than two cards at once
+      return; 
     }
 
     if (choiceOne) {
@@ -77,12 +79,6 @@ function App() {
     }
   }, [choiceOne, choiceTwo]);
 
-  // useEffect(() => {
-  //   if (cards.every((card) => card.matched)) {
-  //     alert(`Congratulations! You completed the game in ${turns} turns.`);
-  //   }
-  // }, [cards, turns]);
-
   useEffect(() => {
     shuffleCards();
   }, []);
@@ -93,7 +89,7 @@ function App() {
       <button onClick={shuffleCards}>New Game</button>
       <div className="card-grid">
         {cards.map((card) => (
-          <SingleCards
+          <PokeBall
             key={card.id}
             card={card}
             handleChoices={handleChoices}

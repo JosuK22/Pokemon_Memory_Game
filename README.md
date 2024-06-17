@@ -2,7 +2,7 @@
 
 ## Preview
 <div align="center">
-  <img src="folder-path/preview.png" alt="Pokemon Game Preview" width="600"/>
+  <img src="./src/assets/Images/Preview/Preview.png" alt="Pokemon Game Preview" width="600"/>
 </div>
 
 ## About

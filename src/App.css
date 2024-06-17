@@ -7,13 +7,16 @@
 }
 
 body {
-  background: url('https://i.pinimg.com/originals/73/ac/7a/73ac7ad727add4c0d01555c42179e31f.png');
+  background: url('https://wallpapercave.com/wp/PMydOHq.jpg');
+  width: 100vw;
+  height: 100vh;
   background-size: cover;
   background-repeat: no-repeat;
-  height: 100vh;
+  backdrop-filter:  blur(5px);
   font-family: "Poppins", sans-serif;
   color: rgb(0, 0, 0);
 }
+
 p{
   width: 160px;
   text-align: center;
@@ -32,7 +35,7 @@ p{
 }
 
 .main h1 {
-  color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
   margin-top: 20px;
   font-size: 2rem;
 }
@@ -115,26 +118,26 @@ p{
 @media (max-width: 600px) {
   .card-grid {
     grid-template-columns: repeat(3, 1fr);
-    gap: 8px;
+    gap: 60px 10px;
     max-width: 300px;
   }
 
   .card {
     width: 80px;
-    height: 120px;
+    height: 80px;
   }
 }
 
 @media (max-width: 400px) {
   .card-grid {
     grid-template-columns: repeat(3, 1fr);
-    gap: 3px;
-    max-width: 300px;
+    gap: 1px;
+    /* max-width: 300px; */
   }
 
   .card {
     width: 90px;
-    height: 120px;
+    height: 90px;
   }
 
   .main h1 {
